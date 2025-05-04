@@ -34,4 +34,9 @@ models:
     silver_airbnb:
       +schema: silver_airbnb
       +database: dev
+    gold_airbnb:
+      +schema: gold_airbnb
+      +materialized: table
+      +transient: false
+
 
